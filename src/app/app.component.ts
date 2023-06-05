@@ -1,6 +1,5 @@
 import { EmployersService } from './services/employers.service';
 import { Component, Injector, Input, OnInit } from '@angular/core';
-import {MAT_DIALOG_DATA, MatDialog, MatDialogRef} from "@angular/material/dialog";
 
 import { EmployeesModel } from './model/employeers';
 import { HttpClientModule } from '@angular/common/http';
